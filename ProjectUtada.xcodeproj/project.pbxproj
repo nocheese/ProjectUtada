@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8EABAE091B8C3EB600FDFBD6 /* LabColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EABAE081B8C3EB600FDFBD6 /* LabColor.m */; };
+		8EABAE0F1B8C56CA00FDFBD6 /* ASHSpringyCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EABAE0E1B8C56CA00FDFBD6 /* ASHSpringyCollectionViewFlowLayout.m */; };
 		8EB14AA71B0332CB00E5EB18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB14AA61B0332CB00E5EB18 /* main.m */; };
 		8EB14AAA1B0332CB00E5EB18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB14AA91B0332CB00E5EB18 /* AppDelegate.m */; };
 		8EB14AAD1B0332CB00E5EB18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB14AAC1B0332CB00E5EB18 /* ViewController.m */; };
@@ -27,6 +29,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8EABAE071B8C3EB600FDFBD6 /* LabColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabColor.h; sourceTree = "<group>"; };
+		8EABAE081B8C3EB600FDFBD6 /* LabColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabColor.m; sourceTree = "<group>"; };
+		8EABAE0C1B8C456400FDFBD6 /* PU_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PU_PrefixHeader.pch; sourceTree = "<group>"; };
+		8EABAE0D1B8C56CA00FDFBD6 /* ASHSpringyCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASHSpringyCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		8EABAE0E1B8C56CA00FDFBD6 /* ASHSpringyCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASHSpringyCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 		8EB14AA11B0332CB00E5EB18 /* ProjectUtada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectUtada.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EB14AA51B0332CB00E5EB18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EB14AA61B0332CB00E5EB18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +67,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8EABAE001B8C3CCC00FDFBD6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8EABAE011B8C3CCC00FDFBD6 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				8EABAE071B8C3EB600FDFBD6 /* LabColor.h */,
+				8EABAE081B8C3EB600FDFBD6 /* LabColor.m */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		8EABAE021B8C3CCC00FDFBD6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8EABAE0D1B8C56CA00FDFBD6 /* ASHSpringyCollectionViewFlowLayout.h */,
+				8EABAE0E1B8C56CA00FDFBD6 /* ASHSpringyCollectionViewFlowLayout.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8EABAE031B8C3DDB00FDFBD6 /* Expend */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Expend;
+			sourceTree = "<group>";
+		};
+		8EABAE051B8C3DDB00FDFBD6 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8EABAE061B8C3DDB00FDFBD6 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		8EABAE0B1B8C455300FDFBD6 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				8EABAE0C1B8C456400FDFBD6 /* PU_PrefixHeader.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		8EB14A981B0332CB00E5EB18 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +142,13 @@
 		8EB14AA31B0332CB00E5EB18 /* ProjectUtada */ = {
 			isa = PBXGroup;
 			children = (
+				8EABAE0B1B8C455300FDFBD6 /* Other */,
+				8EABAE011B8C3CCC00FDFBD6 /* Modal */,
+				8EABAE021B8C3CCC00FDFBD6 /* View */,
+				8EABAE001B8C3CCC00FDFBD6 /* Controller */,
+				8EABAE031B8C3DDB00FDFBD6 /* Expend */,
+				8EABAE061B8C3DDB00FDFBD6 /* Vender */,
+				8EABAE051B8C3DDB00FDFBD6 /* Resource */,
 				8EB14AA81B0332CB00E5EB18 /* AppDelegate.h */,
 				8EB14AA91B0332CB00E5EB18 /* AppDelegate.m */,
 				8EB14AAB1B0332CB00E5EB18 /* ViewController.h */,
@@ -218,9 +286,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EABAE0F1B8C56CA00FDFBD6 /* ASHSpringyCollectionViewFlowLayout.m in Sources */,
 				8EB14AAD1B0332CB00E5EB18 /* ViewController.m in Sources */,
 				8EB14AAA1B0332CB00E5EB18 /* AppDelegate.m in Sources */,
 				8EB14AA71B0332CB00E5EB18 /* main.m in Sources */,
+				8EABAE091B8C3EB600FDFBD6 /* LabColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +416,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = ProjectUtada/Other/PU_PrefixHeader.pch;
 				INFOPLIST_FILE = ProjectUtada/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -356,6 +427,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = ProjectUtada/Other/PU_PrefixHeader.pch;
 				INFOPLIST_FILE = ProjectUtada/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -415,6 +487,7 @@
 				8EB14AC61B0332CC00E5EB18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EB14AC71B0332CC00E5EB18 /* Build configuration list for PBXNativeTarget "ProjectUtadaTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +496,7 @@
 				8EB14AC91B0332CC00E5EB18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
